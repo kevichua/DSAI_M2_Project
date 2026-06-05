@@ -9,7 +9,7 @@ import os
 import threading
 
 def start_server():
-    os.chdir('/Users/fengfeng/Dev/DSAI_M2_Project/olist/notebook')
+    os.chdir('/home/dsai/DSAI_M2_Project/olist/notebook')
     
     class Handler(http.server.SimpleHTTPRequestHandler):
         def end_headers(self):
